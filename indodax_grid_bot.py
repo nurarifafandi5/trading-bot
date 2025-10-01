@@ -1,12 +1,4 @@
-#!/usr/bin/env python3
-"""
-Indodax Grid Bot — adaptive (small -> large balances)
-- Auto grid around current market price (±2%)
-- Adaptive trade size based on available IDR balance
-- Modes: SIMULATION / HYBRID / LIVE (set in config or .env)
-- Logs to ./trade_log.csv
-- Put API_KEY and API_SECRET in .env for LIVE mode (do NOT enable withdraw)
-"""
+
 import os
 import time
 import hmac
